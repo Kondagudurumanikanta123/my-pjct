@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Product Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ccc 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .catalog-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .catalog-item img {
+            width: 100%;
+            height: auto;
+        }
+        .catalog-item .info {
+            padding: 15px;
+        }
+        .catalog-item .info h2 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+        .catalog-item .info p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            .catalog-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Heritage Product Catalog</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="catalog">
+            <div class="catalog-item">
+                <img src="Img13.jpeg" alt="Product 1">
+                <div class="info">
+                    <h2>Heritage Vase</h2>
+                    <p>A beautifully crafted vase representing traditional craftsmanship. Ideal for home decoration and gifting.</p>
+                </div>
+            </div>
+
+            <div class="catalog-item">
+                <img src="Img1.jpg.jpg" alt="Product 2">
+                <div class="info">
+                    <h2>Vintage Quilt</h2>
+                    <p>good qulity and good for health</p>
+                </div>
+            </div>
+
+            <div class="catalog-item">
+                <img src="Img11.jpg" alt="Product 3">
+                <div class="info">
+                    <h2>Handmade Pottery</h2>
+                    <p>Each piece of this handmade pottery is unique, showcasing traditional techniques and designs passed down through generations.</p>
+                </div>
+            </div>
+            
+            <!-- Add more catalog items as needed -->
+        </div>
+    </div>
+</body>
+</html>
